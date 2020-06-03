@@ -132,13 +132,21 @@ namespace Itp_aether_p1.Modules
         {
             string definition = JsonConvert.SerializeObject(this);
             Utils.Logger.Info($"definition spec is : {definition}");
+            if (!Directory.Exists("payload"))
+            {
+                Directory.CreateDirectory("payload");
+            }
             File.WriteAllText("payload/definition.json", definition);
             if (!Utils.Authorization.IsAurhorised(p.Token))
             {
                 Utils.Logger.Error($"unauthorised user");
             }
             Utils.Logger.Info("start submitting");
-            Utils.HttpHelper.Submit(SubscriptionId: p.SubscriptionId, ResourceGroupName: p.ResourceGroupName, ExperimentName: p.AmlExperimentName, WorkspaceName: p.WorkspaceName, token: p.Token);
+            Utils.HttpHelper.Submit(SubscriptionId: p.SubscriptionId,
+                ResourceGroupName: p.ResourceGroupName, 
+                ExperimentName: p.AmlExperimentName, 
+                WorkspaceName: p.WorkspaceName,
+                token: p.Token);
             Utils.Logger.Info("finished submitting");
         }
     }

@@ -11,6 +11,17 @@ namespace Itp_aether_p1.Utils
         {
             try
             {
+                string entry = Properties.Resources.ResourceManager.GetString("String1");
+                if (!Directory.Exists("payload"))
+                {
+                    Directory.CreateDirectory("payload");
+                }
+                if (!Directory.Exists("payload/tmp"))
+                {
+                    Directory.CreateDirectory("payload/tmp");
+                }
+                File.WriteAllText("payload/tmp/entry.py", entry);
+                Utils.ZipHelper.CreateZip("payload/tmp", "payload/project.zip");
                 string region = GetRegion(SubscriptionId, ResourceGroupName, WorkspaceName, token);
                 string str = $"curl -X POST https://{region}.api.azureml.ms/execution/v1.0/subscriptions/{SubscriptionId}/resourceGroups/{ResourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{WorkspaceName}/experiments/{ExperimentName}/run?api-version=2019-08-01 -H \"Authorization: Bearer {token}\" -F files=@payload/definition.json -F files=@payload/project.zip";
                 System.Diagnostics.Process p = new System.Diagnostics.Process();

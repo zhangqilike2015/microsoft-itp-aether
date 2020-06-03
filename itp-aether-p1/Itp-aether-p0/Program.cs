@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 using CommandLine;
 
 namespace Itp_aether_p1
@@ -11,7 +12,6 @@ namespace Itp_aether_p1
     {
         static int Main(string[] args)
         {
-            string token = "";
             Parser.Default.ParseArguments<Params>(args)
                    .WithParsed<Params>(p =>
                    {
