@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itp-aether-p1", "Itp-aether-p0\Itp-aether-p1.csproj", "{973B1D9F-FF9E-4E21-BB71-836E69E569C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{973B1D9F-FF9E-4E21-BB71-836E69E569C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973B1D9F-FF9E-4E21-BB71-836E69E569C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973B1D9F-FF9E-4E21-BB71-836E69E569C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973B1D9F-FF9E-4E21-BB71-836E69E569C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3A73911-542E-4D2C-95F1-6537456B41AD}
+	EndGlobalSection
+EndGlobal

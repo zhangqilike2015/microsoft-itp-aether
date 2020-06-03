@@ -1,0 +1,7 @@
+name: pytorch-dist-hrv
+dependencies:
+- pip
+  - azureml-sdk
+  - torch
+  - torchvision
+  - horovod
