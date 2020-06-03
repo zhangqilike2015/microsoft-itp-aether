@@ -1,0 +1,9 @@
+C:\Users\qizhang4\Desktop\itp-aether-p1\Itp-aether-p1.exe.config
+C:\Users\qizhang4\Desktop\itp-aether-p1\Itp-aether-p1.exe
+C:\Users\qizhang4\Desktop\itp-aether-p1\Itp-aether-p1.pdb
+C:\Users\qizhang4\Documents\microsoft\itp-aether\itp-aether-p1\Itp-aether-p0\obj\Debug\Itp_aether_p1.Properties.Resources.resources
+C:\Users\qizhang4\Documents\microsoft\itp-aether\itp-aether-p1\Itp-aether-p0\obj\Debug\Itp-aether-p1.csproj.GenerateResource.cache
+C:\Users\qizhang4\Documents\microsoft\itp-aether\itp-aether-p1\Itp-aether-p0\obj\Debug\Itp-aether-p1.csproj.CoreCompileInputs.cache
+C:\Users\qizhang4\Documents\microsoft\itp-aether\itp-aether-p1\Itp-aether-p0\obj\Debug\Itp-aether-p1.csproj.CopyComplete
+C:\Users\qizhang4\Documents\microsoft\itp-aether\itp-aether-p1\Itp-aether-p0\obj\Debug\Itp-aether-p1.exe
+C:\Users\qizhang4\Documents\microsoft\itp-aether\itp-aether-p1\Itp-aether-p0\obj\Debug\Itp-aether-p1.pdb
